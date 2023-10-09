@@ -29,7 +29,7 @@ server.use(cors(corsOptions));
 //            the equivalent folder name exist in file system.
 // 3. file the datafiles
 
-server.post('/uploadrecipe', uploadrecipe);
+server.post('/httpuploadrecipe', uploadrecipe);
 
 server.listen(3131, () => {
   console.log('Server started!');
